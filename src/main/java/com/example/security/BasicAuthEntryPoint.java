@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 /**
  * Created by Pavel on 29.12.2016.
  */
-public class CustomBasicAuthEntryPoint extends BasicAuthenticationEntryPoint {
+public class BasicAuthEntryPoint extends BasicAuthenticationEntryPoint {
     @Override
     public void afterPropertiesSet() throws Exception {
         setRealmName(SecurityConfig.REALM);
